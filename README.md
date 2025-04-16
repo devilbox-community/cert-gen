@@ -1,13 +1,13 @@
 # cert-gen
 
-![Tag](https://img.shields.io/github/tag/devilbox/cert-gen.svg)
+![Tag](https://img.shields.io/github/tag/devilbox-community/cert-gen.svg)
 [![Discord](https://img.shields.io/discord/1051541389256704091?color=8c9eff&label=Discord&logo=discord)](https://discord.gg/2wP3V6kBj4)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[![linting](https://github.com/devilbox/cert-gen/workflows/linting/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/linting.yml)
-[![test-linux](https://github.com/devilbox/cert-gen/workflows/test-linux/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/test-linux.yml)
-[![test-macos](https://github.com/devilbox/cert-gen/workflows/test-macos/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/test-macos.yml)
-[![test-windows](https://github.com/devilbox/cert-gen/workflows/test-windows/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/test-windows.yml)
+[![linting](https://github.com/devilbox-community/cert-gen/workflows/linting/badge.svg)](https://github.com/devilbox-community/cert-gen/actions/workflows/linting.yml)
+[![test-linux](https://github.com/devilbox-community/cert-gen/workflows/test-linux/badge.svg)](https://github.com/devilbox-community/cert-gen/actions/workflows/test-linux.yml)
+[![test-macos](https://github.com/devilbox-community/cert-gen/workflows/test-macos/badge.svg)](https://github.com/devilbox-community/cert-gen/actions/workflows/test-macos.yml)
+[![test-windows](https://github.com/devilbox-community/cert-gen/workflows/test-windows/badge.svg)](https://github.com/devilbox-community/cert-gen/actions/workflows/test-windows.yml)
 
 Easily create your own CA and self-signed certificates.
 
@@ -84,7 +84,7 @@ Required parameter
 ```
 
 #### Execute: ca-gen
-The following command shows how the CA is generated for the [Devilbox](https://github.com/cytopia/devilbox):
+The following command shows how the CA is generated for the [Devilbox](https://github.com/devilbox-community/devilbox):
 ```bash
 $ ca-gen -v -c DE -s Berlin -l Berlin -o Devilbox -u Devilbox -n devilbox.org \
        -e ca@devilbox.org devilbox-rootCA.key devilbox-rootCA.crt
@@ -191,7 +191,7 @@ Required parameter
 ```
 
 #### Execute: cert-gen
-The following command shows how SSL certificates are generated for the [Devilbox](https://github.com/cytopia/devilbox):
+The following command shows how SSL certificates are generated for the [Devilbox](https://github.com/devilbox-community/devilbox):
 ```bash
 $ cert-gen -v -c DE -s Berlin -l Berlin -o Devilbox -u Devilbox \
            -n project.loc -e admin@project.loc \
@@ -301,4 +301,6 @@ Certificate:
 
 **[MIT License](LICENSE.md)**
 
-Copyright (c) 2018 [cytopia](https://github.com/cytopia)
+Copyright (c) 2018-2024 [cytopia](https://github.com/cytopia)
+
+Copyright (c) 2024-present [nntoan](https://github.com/nntoan)

@@ -11,7 +11,7 @@ jobs:
   test:
     runs-on: windows-latest
     strategy:
-      fail-fast: False
+      fail-fast: false
 
     name: "[test] [windows]"
     steps:
@@ -19,7 +19,7 @@ jobs:
       # Setup
       # ------------------------------------------------------------
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # ------------------------------------------------------------
       # Tests: Behaviour
